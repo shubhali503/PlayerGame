@@ -1,0 +1,145 @@
+.game{
+    background-color: #e9edc9;
+    border: 2px solid black;
+    margin-top: 10px;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    align-content: center;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1banner{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 70px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcbf49;
+}
+
+#p1{
+    position: relative;
+    float: left;
+    top: 35%;
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+#p1gunshot{
+    position: relative;
+    top: 43%;
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 90px;
+}
+
+#p2{
+    position: relative;
+    float: right;
+    top: 35%;
+    height: 70px;
+    width: 70px;
+    margin-right: 70px;
+}
+
+#p2banner{
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 70px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcbf49;
+}
+
+#p2gunshot{
+    position: relative;
+    float: right;
+    top: 43%;
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.Score-Board{
+    border: 1px solid black;
+      margin-top: 15px;
+      display: grid;
+      grid-template-columns: 35% 35% auto;
+}
+
+.grid-item{
+      background-color: #e9edc9;
+      border: 1px solid black;
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+.result{
+    border: 1px solid black;
+    display: grid;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.result-item{
+    background-color: powderblue;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#ShootBtn{
+    background-color:#118ab2;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#resetBtn{
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#p1shot{
+    font-size: 45px;
+    font-weight: bold;
+}
+#p2shot{
+    font-size: 45px;
+    font-weight: bold;
+}
